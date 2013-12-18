@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flight Todo</title>
+    <link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="components/bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="app/css/custom.css">
+    <link rel="stylesheet" href="app/css/base.css">
+  </head>
+
+  <body>
+    <br>
+    <section id="todoapp">
+      <header id="header">
+        <h1>todos</h1>
+      </header>
+      <section id="main">
+        <input id="toggle-all" type="checkbox">
+        <label for="toggle-all">Mark all as complete</label>
+        <ul id="todoList">
+        </ul>
+      </section>
+      <footer id="footer">
+        <span id="todo-count"></span>
+      <ul id="filters">
+      </ul> 
+      <button id="clear-completed">Clear completed</button>
+    </footer>
+    </section>
+
+
+
+    <script src="components/jquery/jquery.js"></script>
+    <script src="components/es5-shim/es5-shim.js"></script>
+    <script src="components/es5-shim/es5-sham.js"></script>
+    <script data-main="requireMain.js" src="components/requirejs/require.js"></script>
+  </body>
+</html>
