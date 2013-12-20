@@ -1,5 +1,4 @@
-# Flight example app
+# Flight Todolist
 
-[![Build Status](https://travis-ci.org/flightjs/example-app.png?branch=master)](http://travis-ci.org/flightjs/example-app)
-
-An example Flight application.
+Demonstrating Flight by creating a todo list.  
+Demo at https://rawgithub.com/pksjce/flight_todo/master/index.html
